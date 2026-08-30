@@ -1,0 +1,15 @@
+{
+  "name": "nats-taskq",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "producer": "node src/producer.js",
+    "worker": "node src/worker.js",
+    "verify": "node src/verify.js",
+    "test": "node test/api-check.mjs"
+  },
+  "dependencies": {
+    "nats": "2.29.3"
+  }
+}
